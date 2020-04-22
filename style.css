@@ -1,0 +1,16 @@
+.countView {
+    height: 100px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.count {
+    font-size: 30px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.page-footer {
+    padding: 0px;
+    color: orange;
+    background-color: #ee6e73;
+    margin: 0px;
+}
