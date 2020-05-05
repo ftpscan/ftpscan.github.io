@@ -23,9 +23,6 @@
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <!-- External JS -->
-    <script src="app.js"></script>
-
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -49,7 +46,7 @@
     <div class="switch right">
         <label> 
           Lite
-            <input onclick="myFunction()" type="checkbox">
+            <input onclick="darkmode()" type="checkbox">
             <span class="lever"></span>
           Dark
         </label>
@@ -128,32 +125,6 @@
         <br><br>
     </div>
 
-    <!-- Modal Start -->
-    <div id="modal1" class="modal">
-        <div class="modal-content">
-            <h4 class="center">BD FTP Scanner</h4>
-            <h6>Step: 1</h6>
-            <p>Please Download Access Control-Allow-Origin - Unblock Extension</p>
-            <div class="row">
-                <div class="col s6">
-                    <p class="left">For Chrome: <a class="btn orange text-lighten-3" target="_blank" href="https://bit.ly/3acovlM">Download</a></p>
-                </div>
-                <div class="col s6">
-                    <p class="right">For Firefox: <a class="btn orange text-lighten-3" target="_blank" href="https://mzl.la/34JsiFZ">Download</a></p>
-                </div>  
-            </div>
-            <h6>Step: 2</h6>
-            <p>Enable The Extension </p>
-            <h6>Step: 3</h6>
-            <p>Start Scan</p>
-            <h6>Step: 4</h6>
-            <p>Stop The Extension</p>
-        </div>
-        <div class="modal-footer">
-            <a href="#" class="modal-close waves-effect waves-green btn-flat">Done</a>
-        </div>
-    </div>
-    <!- Modal End -->
 
         <!-- Footer Start -->
         <footer class="page-footer orange">
@@ -169,5 +140,9 @@
                 </div>
             </div>
         </footer> <!-- Footer End -->
+    
+    <!-- External JS -->
+    <script src="app.js"></script>
+    <script src="darkmode.js"></script>
 </body>
 </html>
