@@ -14,3 +14,9 @@
     background-color: #ee6e73;
     margin: 0px;
 }
+
+
+.dark-mode {
+  background-color: #212121;
+  color: #e3f2fd;
+}
