@@ -13,6 +13,7 @@
     color: orange;
     background-color: #ee6e73;
     margin: 0px;
+   
 }
 
 
@@ -21,6 +22,8 @@
   color: #fafafa;
 }
 
-html, body {
-    height: 100%;
+body {
+   margin:0;
+   padding:0;
+   height:100%;
 }
